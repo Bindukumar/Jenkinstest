@@ -19,4 +19,7 @@ def getwhatyouwant(inputlist):
     final = min(newlist)
     print "minimum value is : " , final[0] , "Mininum values got from addtion of :" , final[1][:2],  "Mininum values original index are :" ,final[1][2:]
     
-getwhatyouwant(inputlist)
+if __name__ == "main":
+    getwhatyouwant(inputlist)
+else:
+    getwhatyouwant(inputlist)
