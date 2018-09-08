@@ -2,6 +2,7 @@ inputlist = [11,1,2,3,4,5,10,0]
 
 print "hello from assignment"
 print "welcome!"
+print “yes , this is triggered automatically”
 
 def getwhatyouwant(inputlist):
     cindex = 0
